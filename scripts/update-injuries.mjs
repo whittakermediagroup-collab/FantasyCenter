@@ -70,11 +70,20 @@ async function getTeamIds() {
 }
 
 async function getTeamInjuryEntries(teamId) {
-  // Page 1 only — ESPN returns newest entries first, which is what we want
-  // for "current status" rather than full historical injury log.
-  const url = `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/teams/${teamId}/injuries?limit=25`;
-  const data = await fetchJson(url);
-  return (data?.items || []).map((i) => i.$ref);
+  // Fetch up to 2 pages (100 entries) per team. Page 1 alone missed real
+  // flags for teams with a heavy injury week — ESPN's default page is only
+  // 25 entries, and busy teams can push a still-relevant flag past that.
+  const MAX_PAGES = 2;
+  const PAGE_SIZE = 50;
+  const refs = [];
+  for (let page = 1; page <= MAX_PAGES; page++) {
+    const url = `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/teams/${teamId}/injuries?limit=${PAGE_SIZE}&page=${page}`;
+    const data = await fetchJson(url);
+    const items = data?.items || [];
+    refs.push(...items.map((i) => i.$ref));
+    if (page >= (data?.pageCount || 1)) break; // no more pages for this team
+  }
+  return refs;
 }
 
 async function resolveEntry(ref) {
