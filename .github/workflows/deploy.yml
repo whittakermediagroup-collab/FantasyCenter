@@ -50,6 +50,27 @@ jobs:
         # Checks all 32 rosters daily — the actual fix for stale team data
         # after trades/releases (e.g. Mixon/Montgomery). Same fail-soft policy.
 
+      - name: Refresh durability history from nflverse
+        run: npm run update-durability
+        # Computes real durability data for the whole player pool from
+        # official NFL injury reports (nflverse), not just the ~18 hand-
+        # researched players. Same fail-soft policy.
+
+      - name: Refresh season usage (snap share, target share) from nflverse
+        run: npm run update-usage
+        # 2025 final-season snap share / target share for the whole pool -
+        # the honest, more predictive substitute for untracked preseason
+        # snaps. Same fail-soft policy.
+
+      - name: Refresh FantasyPros consensus ADP (second market source)
+        run: npm run update-fantasypros-adp
+        env:
+          FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
+        # Optional second ADP source blending ESPN/CBS/RTSports/Fantrax/
+        # Sleeper consensus. If the FANTASYPROS_API_KEY repo secret isn't
+        # set, this step exits cleanly and the app runs on FFC ADP alone -
+        # same fail-soft policy as every other update script.
+
       - name: Build app bundle
         run: npm run build
 
