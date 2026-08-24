@@ -31,7 +31,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         run: npm install
@@ -40,6 +40,10 @@ jobs:
         run: npm run update-injuries
         # This step is best-effort: update-injuries.mjs exits 0 even on
         # partial/total failure so a bad ESPN response never blocks deploy.
+
+      - name: Refresh ADP data
+        run: npm run update-adp
+        # Same fail-soft policy as the injury step.
 
       - name: Build app bundle
         run: npm run build
