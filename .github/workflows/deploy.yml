@@ -1,0 +1,61 @@
+name: Update injuries and deploy
+
+on:
+  schedule:
+    # 12:00 UTC daily ≈ 7-8am Eastern depending on DST. Change the cron
+    # expression below if you want a different time — cron is UTC.
+    - cron: "0 12 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch: {} # lets you click "Run workflow" in the Actions tab on demand
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Refresh injury data from ESPN
+        run: npm run update-injuries
+        # This step is best-effort: update-injuries.mjs exits 0 even on
+        # partial/total failure so a bad ESPN response never blocks deploy.
+
+      - name: Build app bundle
+        run: npm run build
+
+      - name: Assemble site
+        run: |
+          mkdir -p site
+          cp index.html site/
+          cp -r dist site/dist
+          cp -r data site/data
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
