@@ -11,6 +11,7 @@
     "update-durability": "node scripts/update-durability.mjs",
     "update-usage": "node scripts/update-usage.mjs",
     "update-fantasypros-adp": "node scripts/update-fantasypros-adp.mjs",
+    "update-rookies": "node scripts/update-rookies.mjs",
     "dev-build": "esbuild app.jsx --bundle --format=iife --global-name=DraftCommandModule --outfile=dist/app.js"
   },
   "devDependencies": {
