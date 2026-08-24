@@ -6,6 +6,7 @@
   "scripts": {
     "build": "esbuild app.jsx --bundle --format=iife --global-name=DraftCommandModule --outfile=dist/app.js --minify",
     "update-injuries": "node scripts/update-injuries.mjs",
+    "update-adp": "node scripts/update-adp.mjs",
     "dev-build": "esbuild app.jsx --bundle --format=iife --global-name=DraftCommandModule --outfile=dist/app.js"
   },
   "devDependencies": {
