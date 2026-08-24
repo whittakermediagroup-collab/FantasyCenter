@@ -45,6 +45,11 @@ jobs:
         run: npm run update-adp
         # Same fail-soft policy as the injury step.
 
+      - name: Refresh team rosters from ESPN
+        run: npm run update-teams
+        # Checks all 32 rosters daily — the actual fix for stale team data
+        # after trades/releases (e.g. Mixon/Montgomery). Same fail-soft policy.
+
       - name: Build app bundle
         run: npm run build
 
