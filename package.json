@@ -8,6 +8,9 @@
     "update-injuries": "node scripts/update-injuries.mjs",
     "update-adp": "node scripts/update-adp.mjs",
     "update-teams": "node scripts/update-teams.mjs",
+    "update-durability": "node scripts/update-durability.mjs",
+    "update-usage": "node scripts/update-usage.mjs",
+    "update-fantasypros-adp": "node scripts/update-fantasypros-adp.mjs",
     "dev-build": "esbuild app.jsx --bundle --format=iife --global-name=DraftCommandModule --outfile=dist/app.js"
   },
   "devDependencies": {
