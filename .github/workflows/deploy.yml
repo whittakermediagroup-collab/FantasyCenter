@@ -59,6 +59,7 @@ jobs:
           cp index.html site/
           cp -r dist site/dist
           cp -r data site/data
+          cp -r assets site/assets
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
