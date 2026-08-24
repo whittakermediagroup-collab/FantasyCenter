@@ -50,6 +50,13 @@ jobs:
         # Checks all 32 rosters daily — the actual fix for stale team data
         # after trades/releases (e.g. Mixon/Montgomery). Same fail-soft policy.
 
+      - name: Auto-discover offensive rookies from ESPN rosters
+        run: npm run update-rookies
+        # Scans all 32 active rosters for every true rookie (experience.years
+        # === 0) at QB/RB/WR/TE, instead of relying on hand-picked names -
+        # full coverage of anyone actually on a 53-man roster. Same fail-soft
+        # policy.
+
       - name: Refresh durability history from nflverse
         run: npm run update-durability
         # Computes real durability data for the whole player pool from
