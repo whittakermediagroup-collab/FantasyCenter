@@ -1,0 +1,666 @@
+{
+  "generatedAt": "2026-08-24T18:00:00.000Z",
+  "source": "Fantasy Football Calculator ADP API (12-team PPR) — manual seed, will be overwritten by the first Action run",
+  "players": {
+    "Jahmyr Gibbs": {
+      "adp": 1.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Bijan Robinson": {
+      "adp": 2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Puka Nacua": {
+      "adp": 3.1,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Ja'Marr Chase": {
+      "adp": 3.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jaxon Smith-Njigba": {
+      "adp": 5.4,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Amon-Ra St. Brown": {
+      "adp": 6.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Christian McCaffrey": {
+      "adp": 6.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jonathan Taylor": {
+      "adp": 7.4,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Drake London": {
+      "adp": 9.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "De'Von Achane": {
+      "adp": 10.4,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "CeeDee Lamb": {
+      "adp": 10.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Justin Jefferson": {
+      "adp": 11.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "James Cook": {
+      "adp": 12.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Chase Brown": {
+      "adp": 13.4,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Rashee Rice": {
+      "adp": 14.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Ashton Jeanty": {
+      "adp": 15,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Derrick Henry": {
+      "adp": 17.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "A.J. Brown": {
+      "adp": 18.1,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Saquon Barkley": {
+      "adp": 19.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Chris Olave": {
+      "adp": 20.1,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Nico Collins": {
+      "adp": 21,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Kenneth Walker III": {
+      "adp": 22.1,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Omarion Hampton": {
+      "adp": 23.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Zay Flowers": {
+      "adp": 25.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Garrett Wilson": {
+      "adp": 25.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Malik Nabers": {
+      "adp": 27.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Trey McBride": {
+      "adp": 28.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Josh Jacobs": {
+      "adp": 30.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Kyren Williams": {
+      "adp": 31.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Josh Allen": {
+      "adp": 33.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Breece Hall": {
+      "adp": 35,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Emeka Egbuka": {
+      "adp": 35,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Brock Bowers": {
+      "adp": 35.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Tee Higgins": {
+      "adp": 36.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Cam Skattebo": {
+      "adp": 36.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Javonte Williams": {
+      "adp": 36.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Ladd McConkey": {
+      "adp": 37.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Davante Adams": {
+      "adp": 41.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jameson Williams": {
+      "adp": 44.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Bucky Irving": {
+      "adp": 45.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "D'Andre Swift": {
+      "adp": 45.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Terry McLaurin": {
+      "adp": 46.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "DJ Moore": {
+      "adp": 48.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Drake Maye": {
+      "adp": 51.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Rome Odunze": {
+      "adp": 51.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Bhayshul Tuten": {
+      "adp": 52.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Mike Evans": {
+      "adp": 53.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Colston Loveland": {
+      "adp": 56.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Lamar Jackson": {
+      "adp": 57,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Joe Burrow": {
+      "adp": 57.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "David Montgomery": {
+      "adp": 58.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jaylen Warren": {
+      "adp": 58.4,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Luther Burden III": {
+      "adp": 58.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Courtland Sutton": {
+      "adp": 60.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "TreVeyon Henderson": {
+      "adp": 61.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Alec Pierce": {
+      "adp": 64.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "DK Metcalf": {
+      "adp": 64.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Dak Prescott": {
+      "adp": 65.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Marvin Harrison Jr": {
+      "adp": 65.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Rhamondre Stevenson": {
+      "adp": 67.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Tony Pollard": {
+      "adp": 68.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Brian Thomas Jr": {
+      "adp": 72.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jayden Daniels": {
+      "adp": 72.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Michael Pittman Jr": {
+      "adp": 74.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Kyle Pitts": {
+      "adp": 75.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Matthew Stafford": {
+      "adp": 77.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Chuba Hubbard": {
+      "adp": 78.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jalen Hurts": {
+      "adp": 79,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Josh Downs": {
+      "adp": 84.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Wan'Dale Robinson": {
+      "adp": 85.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Brock Purdy": {
+      "adp": 87.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jakobi Meyers": {
+      "adp": 88.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Caleb Williams": {
+      "adp": 89.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Trevor Lawrence": {
+      "adp": 91.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jayden Reed": {
+      "adp": 94.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Keon Coleman": {
+      "adp": 96.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jordan Addison": {
+      "adp": 97.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jared Goff": {
+      "adp": 99.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Sam LaPorta": {
+      "adp": 99.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Tucker Kraft": {
+      "adp": 100.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Khalil Shakir": {
+      "adp": 100.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Aaron Jones": {
+      "adp": 102.1,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Patrick Mahomes": {
+      "adp": 102.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Dallas Goedert": {
+      "adp": 105,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Justin Herbert": {
+      "adp": 105.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Matthew Golden": {
+      "adp": 106,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Xavier Worthy": {
+      "adp": 106.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Rachaad White": {
+      "adp": 110.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Deebo Samuel Sr": {
+      "adp": 110.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Bo Nix": {
+      "adp": 112.4,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Romeo Doubs": {
+      "adp": 114,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "George Kittle": {
+      "adp": 117.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jordan Mason": {
+      "adp": 118.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Blake Corum": {
+      "adp": 120.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jalen Coker": {
+      "adp": 121.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jerry Jeudy": {
+      "adp": 125.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Mark Andrews": {
+      "adp": 127.4,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Baker Mayfield": {
+      "adp": 128.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Rashid Shaheed": {
+      "adp": 128.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jayden Higgins": {
+      "adp": 129.4,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Tyjae Spears": {
+      "adp": 131,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Kyler Murray": {
+      "adp": 133.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Zach Charbonnet": {
+      "adp": 135.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jalen McMillan": {
+      "adp": 136.1,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Isaiah Likely": {
+      "adp": 136.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Woody Marks": {
+      "adp": 142.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Calvin Ridley": {
+      "adp": 143.7,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Alvin Kamara": {
+      "adp": 144.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jordan Love": {
+      "adp": 146.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Dalton Kincaid": {
+      "adp": 148.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jauan Jennings": {
+      "adp": 148.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Cooper Kupp": {
+      "adp": 150.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Rashod Bateman": {
+      "adp": 150.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Tyrone Tracy Jr": {
+      "adp": 153.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Isiah Pacheco": {
+      "adp": 154.8,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Dylan Sampson": {
+      "adp": 156.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Braelon Allen": {
+      "adp": 156.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Tank Dell": {
+      "adp": 157.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "C.J. Stroud": {
+      "adp": 157.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Daniel Jones": {
+      "adp": 160.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "James Conner": {
+      "adp": 161.1,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Brian Robinson Jr": {
+      "adp": 163.5,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Najee Harris": {
+      "adp": 163.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "T.J. Hockenson": {
+      "adp": 165.2,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Dontayvion Wicks": {
+      "adp": 167.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Travis Hunter": {
+      "adp": 167.6,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Kayshon Boutte": {
+      "adp": 168.3,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Jaydon Blue": {
+      "adp": 168.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Justice Hill": {
+      "adp": 170.1,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Troy Franklin": {
+      "adp": 175,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Xavier Legette": {
+      "adp": 177.4,
+      "adpFormatted": null,
+      "timesDrafted": null
+    },
+    "Ty Johnson": {
+      "adp": 181.9,
+      "adpFormatted": null,
+      "timesDrafted": null
+    }
+  }
+}
