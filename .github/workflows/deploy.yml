@@ -81,6 +81,14 @@ jobs:
       - name: Build app bundle
         run: npm run build
 
+      - name: Build precompiled Tailwind CSS
+        run: npm run build-css
+        # Replaces the Tailwind CDN script (which Tailwind's own team
+        # explicitly warns against using in production) with a real,
+        # precompiled stylesheet built from the classes actually used in
+        # app.jsx - same "Assemble site" step below already copies the
+        # whole dist/ folder, so this just needs to land there too.
+
       - name: Assemble site
         run: |
           mkdir -p site
