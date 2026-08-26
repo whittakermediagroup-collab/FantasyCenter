@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Draft Command</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%230A100D'/%3E%3Cpath d='M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22M18 2H6v7a6 6 0 0 0 12 0V2Z' fill='none' stroke='%237CE38B' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+  <!-- Same precompiled Tailwind + self-hosted fonts as the main app, for
+       visual consistency - see package.json "build-css"/"build-fonts". -->
+  <link rel="stylesheet" href="./dist/tailwind.css" />
+  <link rel="stylesheet" href="./dist/fonts.css" />
+
+  <style>
+    html, body { margin: 0; background: #0A100D; color: #F2F5F1; font-family: 'Inter', sans-serif; }
+    h1, h2 { font-family: 'Oswald', sans-serif; letter-spacing: 0.02em; }
+    a { color: #7CE38B; }
+  </style>
+</head>
+<body>
+  <div class="max-w-2xl mx-auto px-5 py-12">
+    <a href="./index.html" class="text-sm" style="color:#8FA79B;">&larr; Back to Draft Command</a>
+
+    <h1 class="text-4xl font-bold mt-4 mb-2">Privacy Policy</h1>
+    <p class="text-sm mb-8" style="color:#8FA79B;">Last updated: August 2026</p>
+
+    <p class="mb-6">
+      Draft Command is a fantasy football draft assistant. This page explains, plainly, what happens
+      to your data when you use it.
+    </p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">The short version</h2>
+    <p class="mb-6">
+      We don't collect any of your data. There's no login, no account, no server that receives or
+      stores anything about you. Your draft picks are saved only in your own browser, on your own
+      device, and are never sent anywhere.
+    </p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">What's stored on your device</h2>
+    <p class="mb-6">
+      When you draft a player, undo a pick, or set your draft slot, that information is saved using
+      your browser's local storage (<code>localStorage</code>) so your progress survives a page
+      reload. This data stays entirely on your device — it is never transmitted to us or to anyone
+      else, and we have no way to see it. Clearing your browser's site data, or using a different
+      browser or device, will not carry it over, since it was never anywhere but your own browser.
+    </p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">No third-party trackers, ads, or analytics</h2>
+    <p class="mb-6">
+      This site loads no fonts, scripts, or resources from any third-party service. Everything it
+      needs — the app itself, its styling, and its fonts — is bundled and served directly from this
+      site. There are no ads, no analytics scripts, and no tracking of any kind.
+    </p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">Hosting</h2>
+    <p class="mb-6">
+      This site is hosted on GitHub Pages. Like any web host, GitHub receives standard technical
+      information from your browser as part of normal web traffic (such as your IP address and
+      browser type) in order to deliver the page to you. This is standard for any website and is
+      governed by
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub's own Privacy Statement</a>,
+      not by us.
+    </p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">Where the player data comes from</h2>
+    <p class="mb-6">
+      The player, injury, ADP, and usage data shown in the app is pulled automatically from public
+      sports data sources (including ESPN and nflverse) on a daily schedule, to keep it current.
+      This happens on our own infrastructure, independent of any visitor using the site — it has
+      nothing to do with you or your browsing activity.
+    </p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">Changes to this policy</h2>
+    <p class="mb-6">
+      If what this site collects or how it works ever changes, this page will be updated to reflect
+      that honestly.
+    </p>
+  </div>
+</body>
+</html>
