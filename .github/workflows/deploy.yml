@@ -89,10 +89,17 @@ jobs:
         # app.jsx - same "Assemble site" step below already copies the
         # whole dist/ folder, so this just needs to land there too.
 
+      - name: Self-host fonts
+        run: npm run build-fonts
+        # Replaces the Google Fonts CDN import (which sends every visitor's
+        # IP address to Google on every page load) with real local font
+        # files copied from the @fontsource npm packages.
+
       - name: Assemble site
         run: |
           mkdir -p site
           cp index.html site/
+          cp privacy.html site/
           cp -r dist site/dist
           cp -r data site/data
           cp -r assets site/assets
